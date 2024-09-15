@@ -1,1 +1,192 @@
-site_name: My Docs
+site_name: Stabilizing Behaviors
+site_name_short: Stabilizing Behaviors
+# site_name_short: '<img src="/images/SmallLogo250x151.png" style="height: auto; width: 50px;" alt="TABCC Home">'
+# site_description: Connecting the disconnected.
+site_url: http://stabilizingbehaviors.org
+site_author: Stabilizing Behaviors
+copyright: Stabilizing Behaviors
+
+# repository information
+repo_url: https://github.com/almostengr/stabilizing-behaviors
+repo_name: Github
+remote_name: origin
+remote_branch: website
+
+# Development server details
+dev_addr: 10.10.10.102:8080
+
+# Appearance
+theme:
+  name: null
+  custom_dir: 'theme'
+  language: en
+  # google_tag:
+  site_icon: "/images/SmallLogo250x151.png"
+  main:
+    bgcolor: bg-white
+  static_templates:
+    - 404.html
+    - 500.html
+    # - contact.php
+  # sitemessage:
+  #   - heading: ""
+  #     detail: '<div class="text-center"><img src="/images/headerlogo.jpg" alt="TABCC logo and motto - TABCC, Connecting the Disconnected" ></div>'
+  #     bgcolor: bg-white
+  #     textcolor: text-black
+  # homemessage:
+  #   - heading: heading
+  #     detail: detail
+  #     bgcolor: bg-primary
+  #     textcolor: text-light
+  jumbotron:
+    - heading: PROVIDING BUSINESS SUPPORT IN WEST ALABAMA
+      detail: Need help starting a business? We help businesses get started and improve the community
+      url: #
+      background_image: "/images/blogpost-1.jpg"
+      textcolor: text-white
+      buttoncolor: btn-white
+  mainnav:
+    bgcolor: bg-yellow
+    linkcolor: text-black
+    buttoncolor: btn-yellow
+    links:
+    - url: /about
+      name: ABOUT
+      button: false
+    - url: /services
+      name: SERVICES
+      button: false
+    - url: /contact
+      name: CONTACT
+      button: false
+  featurette:
+    - heading: ASBCC Credit and Wealth Tour
+      description: 'Featured speakers include OWN Network TV Personality & Owner of Credit 1 USA, Attorney Maurice Scott and Desmond Douglas, Licensed Financial Advisor & Author: “In God We Trust:A Bible Study About Money”. Event will be held on June 4, 2024 at Plum Grove Baptist Church.'
+      imageurl: /images/creditwealth2024.png
+      bgcolor: bg-yellow
+      textcolor: text-black
+      buttontext: Register Now
+      buttonlink: "https://www.eventbrite.com/e/asbcc-credit-wealth-tour-2024-tuscaloosa-al-tickets-912243744597"
+    - heading: ASBCC Entrepreneurs and Innovators Conference
+      description: Conference takes place on June 20-21, 2024 at the Tuxedo Ballroom in Birmingham, Alabama. Registration is open until June 18, 2024.
+      imageurl: /images/asbccconference2024.png
+      bgcolor: bg-white
+      textcolor: text-black
+      buttontext: Get Event Details and Register
+      buttonlink: "https://www.alblackcc.org"
+
+    - heading: SBA Offers Disaster Assistance for March 2021 Storms
+      description: Businesses in Blount, Chambers, Cherokee, Chilton, Cleburne, Coosa, Dallas, Etowah, Greene, Marengo, Saint Clair, Tallapoosa, Talladega, Tuscaloosa and Walker counties in Alabama are eligble for low-interest disaster loans from the SBA (Small Business Administration).
+      imageurl: /images/headerlogo.jpg
+      bgcolor: bg-yellow
+      textcolor: text-black
+      buttontext: More Disaster Assistance Info
+      buttonlink: /resources/sba-disaster-assistance-march-2021
+    - heading: Paycheck Protection Program (PPP)
+      description: Certain eligible borrowers that previously received a PPP loan are eligible for a second loan with the same loan terms through the additional funding Congress passed. Borrowers can apply for a Second Draw PPP Loan until March 31, 2021.
+      bgcolor: bg-white
+      textcolor: text-black
+      imageurl: /images/paycheckprotection.jpg
+      buttontext: Read more about PPP
+      buttonlink: /resources
+    - heading: Small-Business Grants
+      description: There are a number of small business grants that are available to small businesses. Find out more about these grants and to see if you qualify.
+      buttonlink: /resources
+      buttontext: Find Out About Grants
+      bgcolor: bg-yellow
+      textcolor: text-black
+      imageurl: /images/one_dollar_bill.jpg # https://pixabay.com/photos/bank-notes-dollar-us-dollars-usd-941246/
+    - heading: Serving Tuscaloosa and Surrounding Communities
+      description: We provide business support, networking, and financial resources.
+      imageurl: /images/serving_tuscaloosa.jpg
+      bgcolor: bg-white
+      textcolor: text-black
+      buttontext: Learn more about TABCC
+      buttonlink: /about
+    - heading: Attention Business Owners!
+      description: Do you currently have a business or are planning on establishing your business in the Tuscaloosa, Alabama, West Central Alabama, or Black Belt of Alabama regions? Then you should join the Tuscaloosa Area Black Chamber of Commerce for resources and information that are only provided to members and partners. TABCC constantly developing programs and new initiatives that will help TABCC businesses move forward.
+      imageurl: /images/womenentrepreneur.jpg
+      bgcolor: bg-yellow
+      textcolor: text-black
+      buttontext: Become A Member!
+  # promotions:
+  #   - heading: Attention Business Owners!
+  #     detail: Do you currently have a business or are planning on establishing your business in the Tuscaloosa, Alabama, West Central Alabama, or Black Belt of Alabama regions? Then you should join the Tuscaloosa Area Black Chamber of Commerce for resources and information that are only provided to members and partners. TABCC constantly developing programs and new initiatives that will help TABCC businesses move forward.
+  #     buttoncolor: btn-dark-gray
+  #     buttontext: Join Today!
+  #     buttonlink: /membership
+  #     bgcolor: bg-yellow
+  #     textcolor: text-black
+  subfooter:
+    - bgcolor: bg-dark
+      textcolor: text-white
+      headercolor: text-yellow
+      columns:
+      - heading: Connect With TABCC!
+        links:
+        - name: Facebook
+          url: "https://www.facebook.com/tuscblackcc"
+          icon: bi bi-facebook
+        - name: Twitter
+          url: "https://twitter.com/tuscblackcc"
+          icon: bi bi-twitter-x
+      - heading: Affiliate Links
+        links:
+        - name: Alabama State Black Chamber of Commerce
+          url: "http://www.alblackcc.org/"
+          icon: bi-briefcase-fill
+        - name: Birmingham Metro Black Chamber of Commerce
+          url: "https://www.birminghammetrobcc.com/"
+          icon: bi-briefcase-fill
+        - name: East Alabama Black Chamber of Commerce
+          url: "https://eabcc.org/"
+          icon: bi-briefcase-fill
+        - name: Huntsville Black Chamber of Commerce
+          url: "http://hsvblackchamber.org"
+          icon: bi-briefcase-fill
+        - name: Mobile Area Black Chamber of Commerce
+          url: "https://mabcc.org/"
+          icon: bi-briefcase-fill
+        - name: Northeast Alabama Black Chamber of Commerce
+          url: "https://www.facebook.com/neabcc/"
+          icon: bi-briefcase-fill
+        - name: Wiregrass Black Chamber of Commerce
+          url: "https://wiregrassbcc.org/"
+          icon: bi-briefcase-fill
+      - heading: "Other Links"
+        links:
+        - name: Contact
+          url: /contact.php
+          icon: bi bi-person-rolodex
+        - name: 205-614-8585
+          url: tel:205-614-8585
+          icon: bi bi-telephone-fill
+        - url:  "https://www.facebook.com/tuscblackcc/photos"
+          name: Photos
+          icon: bi bi-camera
+        - url: /jobs
+          name: Job Opportunities
+          icon: bi bi-buildings-fill
+        - url: /
+          name: tuscblackchamber.org
+          icon: bi bi-globe
+        - url: /privacy
+          name: Privacy Policy
+          icon: bi bi-shield-lock-fill
+  footer:
+    - bgcolor: bg-black
+      textcolor: text-yellow
+      # links:
+      # - url: "linkurl"
+      #   name: "linkname"
+
+use_directory_urls: true
+strict: false
+
+
+plugins:
+  # - minify:
+      # minify_html: true
+
+extra:
+  generator: false
