@@ -1,107 +1,16 @@
 ---
-title: About TABCC
-description: Information about the Tuscaloosa Area Black Chamber of Commerce
+title: About Us
+description: Learn more about Stabilizing Behaviors Consultations and our purpose.
 ---
 
-<div class="text-center pb-3">
-<img src="/images/headerlogo.jpg" alt="TABCC logo and motto - TABCC, Connecting the Disconnected" >
-</div>
+<!-- ## Mission Statement -->
 
-## Our Mission
+## Our Mission: ***“Empowering Potential, Embracing Individuality: Our Mission for Children with Autism”***
 
-*The mission of the Tuscaloosa Area Black Chamber of Commerce, Inc. is to promote economic development in the Tuscaloosa County, AL African-American community and surrounding under-represented communities of West Alabama by developing economic empowerment strategies that will assist current and future Black or under-represented business owners in becoming sustainable.*
+At Stabilizing Behaviors Consultation, our unwavering commitment is to empower the potential of every child with autism while embracing and celebrating their individuality. We are dedicated to creating a nurturing and inclusive environment where children on the autism spectrum can thrive, learn, and develop to their fullest capabilities.
 
-To this end, the corporation shall endeavor and sustain West Alabama communities, particularly Tuscaloosa and surrounding communities by:
+Our mission is to provide comprehensive and personalized support that focuses on each child’s unique strengths, needs, and interests. Through compassionate care, evidence-based interventions, and a team of dedicated professionals, we aim to foster a sense of belonging, self-confidence, and achievement in every child we serve.
 
-Promoting economic growth and development within underserved communities in West Alabama
-Promoting an understanding of the American Free Enterprise system through education, research, and development of model programs
-Promoting and enhancing leadership, individual involvement, and community development through public forums and training
-Conducting seminars designed to educate participants in the management of trade and professional associations and business enterprises
-Sponsoring educational seminars and conferences to educate youth in entrepreneurship and leadership development
+We believe in a holistic approach that encompasses not only the child’s development but also supports families and caregivers throughout their journey. By promoting open communication, collaboration, and community engagement, we aspire to build a network of understanding and shared success.
 
-## Why a "Black" Chamber?
-
-TABCC exists because we believe in education advocacy. State statistics reveal that there is no all-in-one box for minority business needs. The more informed we are, the better we are to navigate in a competitive environment, and overcome the history and culture of Alabama that considers Black Businesses different therefore inferior.
-
-## Areas Served by TABCC
-
-The Tuscaloosa Area Black Chamber of Commerce serves businesses and organizations, including but not 
-limited to, those listed in the following Alabama cities and communities:
-
-### Bibb County
-
-* Brent
-* Centreville
-* Vance
-* West Blocton
-* Woodstock
-
-### Fayette County
-
-* Fayette
-* Winfield
-
-### Greene County
-
-* Boligee
-* Eutaw
-* Forkland
-* Union
-
-### Hale County
-
-* Akron
-* Greensboro
-* Moundville
-* Newbern
-
-### Marengo County
-
-* Demopolis
-* Linden
-* Thomaston
-
-### Perry County
-
-* Marion
-* Uniontown
-
-### Pickens County
-
-* Aliceville
-* Carrollton
-* Ethelsville
-* Gordo
-* McMullen
-* Mempis
-* Pickensville
-* Reform
-
-### Sumter County
-
-* Livingston
-* York
-
-### Tuscaloosa County
-
-* Brookwood
-* Coaling
-* Coker
-* Moundville
-* Northport
-* Tuscaloosa
-* Vance
-* Woodstock
-
-### Wilcox County
-
-* Camden
-
-If you do not see your city or county listed, you are still welcome to join the Tuscaloosa Area Black Chamber of Commerce.
-
-## Chamber Affiliation
-
-TABCC is one of several Black chambers of commerce that are apart of the 
-[Alabama State Black Chamber of Commerce](https://asbcc.org).
-
-[ASBCC Organization Chart](/files/ASBCC Organizational Chart.pdf)
+With respect, empathy, and a commitment to continuous improvement, we are dedicated to making a positive impact in the lives of children with autism and their families. Our mission is not just a statement but a driving force that fuels our dedication to making a meaningful difference in every child’s life.

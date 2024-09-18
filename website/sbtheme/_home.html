@@ -1,0 +1,79 @@
+<div class="mb-5">
+    <!-- <div class="p-5 text-center bg-body-tertiary"> -->
+    <div class="p-5 text-center">
+        <div class="container py-5">
+            <h1>Our Approach</h1>
+            <p class="col-lg-8 mx-auto lead">
+                At Stabilizing Behaviors Consultations, our commitment to individuals with autism and their families
+                goes beyond words – it’s at the core of everything we do.
+            </p>
+        </div>
+    </div>
+</div>
+
+<div class="my-5 py-3 bg-secondary">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 p-3">
+                <h2 class="text-center">Our Services</h2>
+                <div class="fs-5 pb-2">
+                    We offer a variety of services to help you and your child be successful
+                    with their development. The services we offer include:
+                </div>
+                <ul class="fs-5">
+                    <li><a href="/services/behaviorial-consultations">Behavioral Consultations</a></li>
+                    <li><a href="/services/community-based-services">Community-Based Services</a></li>
+                    <li><a href="/services/naturalistic-teaching">Naturalistic Teaching</a></li>
+                    <li><a href="/services/parent-training">Parent Training</a></li>
+                    <li><a href="/services/rbt-training">RBT Training</a></li>
+                    <li><a href="/services/school-based-services">School-Based Services</a></li>
+                    <li><a href="/services/social-skills-training">Social Skills Training</a></li>
+                    <li><a href="/services/speech-therapy">Speech Therapy</a></li>
+                </ul>
+            </div>
+            <div class="col-md-6 p-3">
+                <img src="/images/student_education.jpg" alt="Teacher observing students doing homework"
+                    class="rounded w-100">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="my-5 py-3 bg-light">
+    <div class="container">
+        <h2 class="text-center">What Our Clients Are Saying</h2>
+        <div class="row">
+            {% for review in config.theme.reviews %}
+            <div class="col-md-6 col-lg-4">
+                <div class="card">
+                    <div class="card-body">
+                        <blockquote class="blockquote mb-0">
+                            <p>{{ review.comment }}</p>
+                            <footer class="blockquote-footer text-dark">
+                                {{ review.name }}
+                            </footer>
+                        </blockquote>
+                    </div>
+                    <div class="card-footer">
+                        {{ review.date }}
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
+<div class="my-5 py-3 bg-secondary">
+    <div class="container">
+        <h2 class="text-center">We Are Here To Help</h2>
+        <div class="text-center pb-4">
+            Often times, people wait too late to get assistance with
+            their child's behavior. Contact us before it is too late to see how 
+            we can help.
+        </div>
+        <div class="text-center">
+            <a href="/contact" class="btn btn-cta border-dark btn-lg">Contact Us Today</a>
+        </div>
+    </div>
+</div>
