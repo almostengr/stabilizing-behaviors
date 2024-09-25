@@ -1,7 +1,6 @@
-<div class="mb-5">
-    <!-- <div class="p-5 text-center bg-body-tertiary"> -->
+<div class="mb-5 p-3">
     <div class="p-5 text-center">
-        <div class="container py-5">
+        <div class="container-lg py-5">
             <h1>Our Approach</h1>
             <p class="col-lg-8 mx-auto lead">
                 At Stabilizing Behaviors Consultations, our commitment to individuals with autism and their families
@@ -11,8 +10,8 @@
     </div>
 </div>
 
-<div class="my-5 py-3 bg-secondary">
-    <div class="container">
+<div class="my-5 p-3 bg-secondary">
+    <div class="container-lg">
         <div class="row">
             <div class="col-md-6 p-3">
                 <h2 class="text-center">Our Services</h2>
@@ -21,14 +20,16 @@
                     with their development. The services we offer include:
                 </div>
                 <ul class="fs-5">
-                    <li><a href="/services/behaviorial-consultations">Behavioral Consultations</a></li>
-                    <li><a href="/services/community-based-services">Community-Based Services</a></li>
-                    <li><a href="/services/naturalistic-teaching">Naturalistic Teaching</a></li>
-                    <li><a href="/services/parent-training">Parent Training</a></li>
-                    <li><a href="/services/rbt-training">RBT Training</a></li>
-                    <li><a href="/services/school-based-services">School-Based Services</a></li>
-                    <li><a href="/services/social-skills-training">Social Skills Training</a></li>
-                    <li><a href="/services/speech-therapy">Speech Therapy</a></li>
+                    <li><a class="text-dark" href="/services/behaviorial-consultations">Behavioral Consultations</a>
+                    </li>
+                    <li><a class="text-dark" href="/services/community-based-services">Community-Based Services</a>
+                    </li>
+                    <li><a class="text-dark" href="/services/naturalistic-teaching">Naturalistic Teaching</a></li>
+                    <li><a class="text-dark" href="/services/parent-training">Parent Training</a></li>
+                    <li><a class="text-dark" href="/services/rbt-training">RBT Training</a></li>
+                    <li><a class="text-dark" href="/services/school-based-services">School-Based Services</a></li>
+                    <li><a class="text-dark" href="/services/social-skills-training">Social Skills Training</a></li>
+                    <li><a class="text-dark" href="/services/speech-therapy">Speech Therapy</a></li>
                 </ul>
             </div>
             <div class="col-md-6 p-3">
@@ -39,8 +40,8 @@
     </div>
 </div>
 
-<div class="my-5 py-3 bg-light">
-    <div class="container">
+<div class="my-5 p-3 bg-light">
+    <div class="container-lg">
         <h2 class="text-center">What Our Clients Are Saying</h2>
         <div class="row">
             {% for review in config.theme.reviews %}
@@ -64,16 +65,23 @@
     </div>
 </div>
 
-<div class="my-5 py-3 bg-secondary">
-    <div class="container">
+<div class="my-5 p-3 bg-secondary">
+    <div class="container-lg">
         <h2 class="text-center">We Are Here To Help</h2>
-        <div class="text-center pb-4">
-            Often times, people wait too late to get assistance with
-            their child's behavior. Contact us before it is too late to see how 
-            we can help.
-        </div>
-        <div class="text-center">
-            <a href="/contact" class="btn btn-cta border-dark btn-lg">Contact Us Today</a>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="text-center pb-4">
+                    Often times, people wait too late to get assistance with
+                    their child's behavior. Contact us before it is too late to see how
+                    we can help.
+                </div>
+                <div class="text-center">
+                    <a href="/contact" class="btn btn-cta border-dark btn-lg">Contact Us Today</a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <img class="w-100" src="/images/helping_hands.jpg" alt="Hand reaching for the sun" />
+            </div>
         </div>
     </div>
 </div>

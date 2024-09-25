@@ -14,3 +14,46 @@ Our mission is to provide comprehensive and personalized support that focuses on
 We believe in a holistic approach that encompasses not only the child’s development but also supports families and caregivers throughout their journey. By promoting open communication, collaboration, and community engagement, we aspire to build a network of understanding and shared success.
 
 With respect, empathy, and a commitment to continuous improvement, we are dedicated to making a positive impact in the lives of children with autism and their families. Our mission is not just a statement but a driving force that fuels our dedication to making a meaningful difference in every child’s life.
+
+
+## Locations Served
+
+We provide our services in Maryland.
+We provide our services in Maryland.
+We provide our services in Maryland.
+We provide our services in Maryland.
+We provide our services in Maryland.
+We provide our services in Maryland.
+We provide our services in Maryland.
+We provide our services in Maryland.
+We provide our services in Maryland.
+We provide our services in Maryland.
+We provide our services in Maryland.
+We provide our services in Maryland.
+We provide our services in Maryland.
+We provide our services in Maryland.
+We provide our services in Maryland.
+We provide our services in Maryland.
+We provide our services in Maryland.
+We provide our services in Maryland.
+We provide our services in Maryland.
+We provide our services in Maryland.
+We provide our services in Maryland.
+We provide our services in Maryland.
+We provide our services in Maryland.
+We provide our services in Maryland.
+We provide our services in Maryland.
+We provide our services in Maryland.
+We provide our services in Maryland.
+We provide our services in Maryland.
+We provide our services in Maryland.
+We provide our services in Maryland.
+We provide our services in Maryland.
+We provide our services in Maryland.
+We provide our services in Maryland.
+We provide our services in Maryland.
+We provide our services in Maryland.
+We provide our services in Maryland.
+We provide our services in Maryland.
+We provide our services in Maryland.
+We provide our services in Maryland.
