@@ -36,12 +36,21 @@ theme:
       name: Anonymous
 
   sidebar:
-    - heading: Testing1
-      body: this is a test for the first heading
-      buttonlink: /contact
-    - heading: testing2
-      body: test for the second card
+    - heading: Behaviorial Services
+      body: We offer several servces to improve the lives of children and their parents with the use of our evidence-based approach.
       buttonlink: /services
+    - heading: Community Events
+      body:  Our community events are designed to enhance social skills and encourage peer interaction among children. 
+      buttonlink: /services/community-events
+    - heading: Parent Training and Support
+      body: By fostering a strong partnership with parents, we create a comprehensive support system that enhances the child's development and overall well-being.
+      buttonlink: /services/parent-training-and-support
+    - heading: Serving Maryland
+      body: Our team works with parents, children, and families located in the state of Maryland. Click the button below to find out about all the locations we serve.
+      buttonlink: /locations#maryland
+    - heading: Serving Virginia
+      body: Our team works with parents, children, and families located in the state of Virginia. Click the button below to find out about all the locations we serve.
+      buttonlink: /locations#virginia
       
 use_directory_urls: true
 strict: false

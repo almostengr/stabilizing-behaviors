@@ -9,6 +9,10 @@
   --columbia-blue: #bcd3f2;
 }
 
+body {
+  font-family: montserrat, sans-serif;
+}
+
 .bd-placeholder-img {
   font-size: 1.125rem;
   text-anchor: middle;
@@ -102,7 +106,7 @@
   color: var(--marian-blue) !important;
 }
 
-.card-body {
+.card {
   background-color: var(--columbia-blue);
 }
 
@@ -147,6 +151,10 @@ a.nav-link {
   font-weight: 500;
 }
 
+main a {
+  color: var(--marian-blue);
+}
+
 .navbar-brand {
   color: #FFFFFF !important;
   font-weight: bold;
@@ -156,4 +164,9 @@ a.nav-link {
 footer,
 footer a {
   color: var(--lavender-web) !important;
+}
+
+.card-image {
+  height: 100%;
+  object-fit: cover;
 }

@@ -3,7 +3,7 @@ title: Contact Us
 ---
 
 We look forward to hearing from you. Please feel free to contact 
-us with questions about our services or to schedule a consultation.
+us with questions about [our services](/services) or to schedule a consultation.
 
 ## Main office
 

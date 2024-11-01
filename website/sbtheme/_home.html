@@ -1,76 +1,104 @@
-<div class="mb-5 p-3">
-    <div class="p-5 text-center">
-        <div class="container-lg py-5">
-            <h1>Our Approach</h1>
-            <p class="col-lg-8 mx-auto lead">
+<div class="container col-xxl-8 px-4 py-5">
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-5">
+            <img src="/images/child_on_playground_resized.jpg" class="d-block mx-lg-auto img-fluid"
+                alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+        </div>
+        <div class="col-lg-7">
+            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">
+                Empowering Potential,<br />Embracing Individuality
+            </h1>
+            <p class="lead">
                 At Stabilizing Behaviors Consultations, our commitment to individuals with autism and their families
-                goes beyond words – it’s at the core of everything we do.
+                goes beyond words – it is at the core of everything we do.
+                By promoting open communication, collaboration, and community engagement,
+                we aspire to build a network of understanding and shared success.
             </p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                <a href="/contact" class="btn btn-cta btn-lg px-4 me-md-2 fw-bold">Contact Us</a>
+                <a href="/services" class="btn btn-outline-secondary btn-lg px-4">Our Services</a>
+            </div>
         </div>
     </div>
 </div>
-
-<div class="my-5 p-3 bg-secondary">
+<div class="my-1 py-5 px-3 bg-secondary">
     <div class="container-lg">
         <div class="row">
-            <div class="col-md-6 p-3">
-                <h2 class="text-center">Our Services</h2>
-                <div class="fs-5 pb-2">
+            <div class="col-md-6 p-3 px-5">
+                <img src="/images/student_education.jpg" alt="Teacher observing students doing homework"
+                    class="rounded-3 w-100 shadow">
+            </div>
+            <div class="col-md-6 p-3 px-5">
+                <h2 class="text-center py-3">Our Services</h2>
+                <div class="pb-2">
                     We offer a variety of services to help you and your child be successful
                     with their development. The services we offer include:
                 </div>
-                <ul class="fs-5">
-                    <li><a class="text-dark" href="/services/behaviorial-consultations">Behavioral Consultations</a>
-                    </li>
-                    <li><a class="text-dark" href="/services/community-based-services">Community-Based Services</a>
-                    </li>
-                    <li><a class="text-dark" href="/services/naturalistic-teaching">Naturalistic Teaching</a></li>
-                    <li><a class="text-dark" href="/services/parent-training">Parent Training</a></li>
-                    <li><a class="text-dark" href="/services/rbt-training">RBT Training</a></li>
-                    <li><a class="text-dark" href="/services/school-based-services">School-Based Services</a></li>
-                    <li><a class="text-dark" href="/services/social-skills-training">Social Skills Training</a></li>
-                    <li><a class="text-dark" href="/services/speech-therapy">Speech Therapy</a></li>
+                <ul>
+                    <li><a class="text-dark" href="/services/behavior-modification-and-reduction">Behavior Modification
+                            and Reduction</a></li>
+                    <li><a class="text-dark" href="/services/community-events">Community Events</a>
+                    <li><a class="text-dark" href="/services/discrete-trial-training">Discrete Trial Training</a>
+                    <li><a class="text-dark" href="/services/feeding-therapy-program">Feeding Therapy Program</a>
+                    <li><a class="text-dark" href="/services/life-skills-development">Life Skills Development</a>
+                    <li><a class="text-dark" href="/services/natural-environment-teaching">Natural Environment
+                            Teaching</a>
+                    <li><a class="text-dark" href="/services/parent-training-and-support">Parent Training And
+                            Support</a>
+                    <li><a class="text-dark" href="/services/social-skills-groups">Social Skills Groups</a>
                 </ul>
-            </div>
-            <div class="col-md-6 p-3">
-                <img src="/images/student_education.jpg" alt="Teacher observing students doing homework"
-                    class="rounded w-100">
+                <div>
+                    See <a class="text-dark" href="/services">all of our services</a>.
+                </div>
             </div>
         </div>
     </div>
 </div>
-
-<div class="my-5 p-3 bg-light">
+<div class="my-1 py-5 px-3 bg-light">
     <div class="container-lg">
-        <h2 class="text-center">What Our Clients Are Saying</h2>
         <div class="row">
-            {% for review in config.theme.reviews %}
-            <div class="col-md-6 col-lg-4">
-                <div class="card">
-                    <div class="card-body">
-                        <blockquote class="blockquote mb-0">
-                            <p>{{ review.comment }}</p>
-                            <footer class="blockquote-footer text-dark">
-                                {{ review.name }}
-                            </footer>
-                        </blockquote>
+            <div class="col-md-6 p-3 px-5">
+                <h2 class="text-center py-3">Evidence-Based Approach</h2>
+                <div class="pb-3">
+                    We believe in an approach that encompasses not only the child's development but also supports
+                    families and caregivers throughout their journey. Our services include:
+                </div>
+                <div class="pb-3">
+                    <h4>Individualized Assessment and Planning</h4>
+                    <div>
+                        We assess each child to create tailored programs that address their specific needs and goals.
                     </div>
-                    <div class="card-footer">
-                        {{ review.date }}
+                </div>
+                <div class="pb-3">
+                    <h4>Evidence-Based Interventions</h4>
+                    <div>
+                        Our team utilizes proven strategies to facilitate learning and development, ensuring that each
+                        child
+                        receives the best possible support.
+                    </div>
+                </div>
+                <div class="pb-3">
+                    <h4>Family Support and Resources</h4>
+                    <div>
+                        We provide guidance and resources to families, empowering them to be active participants in
+                        their
+                        child's development.
                     </div>
                 </div>
             </div>
-            {% endfor %}
+            <div class="col-md-6 p-3 px-5">
+                <img src="/images/aba_therapy_cover.jpg" alt="Teacher observing students doing homework"
+                    class="rounded-3 w-100 shadow">
+            </div>
         </div>
     </div>
 </div>
-
-<div class="my-5 p-3 bg-secondary">
+<div class="my-1 py-5 px-3 bg-secondary">
     <div class="container-lg">
-        <h2 class="text-center">We Are Here To Help</h2>
+        <h2 class="text-center py-3">We Are Here To Help</h2>
         <div class="row">
             <div class="col-md-6">
-                <div class="text-center pb-4">
+                <div class="text-center pb-4 mx-5">
                     Often times, people wait too late to get assistance with
                     their child's behavior. Contact us before it is too late to see how
                     we can help.
@@ -80,7 +108,7 @@
                 </div>
             </div>
             <div class="col-md-6">
-                <img class="w-100" src="/images/helping_hands.jpg" alt="Hand reaching for the sun" />
+                <img class="w-100 rounded-3 shadow" src="/images/helping_hands.jpg" alt="Hand reaching for the sun" />
             </div>
         </div>
     </div>

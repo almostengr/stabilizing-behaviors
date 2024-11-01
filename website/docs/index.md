@@ -1,3 +1,3 @@
 ---
-title: Stabilizing Behaviors Consultations | Empowering Potential, Embracing Individuality
+title: Empowering Potential, Embracing Individuality
 ---
