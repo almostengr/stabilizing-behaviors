@@ -62,3 +62,5 @@ jobs:
           expires: 7d
           entryPoint: .
           firebaseToolsVersion: latest
+          channelOptions:
+            channelId: 'live' 
