@@ -11,6 +11,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
+      env:
+        GITHUB_TOKEN: ${{ secrets.TOKEN }}
 
     - name: Install pip
       run:  /usr/bin/python3 -m pip install --upgrade pip
