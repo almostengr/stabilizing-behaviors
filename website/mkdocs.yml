@@ -1,1 +1,64 @@
-site_name: My Docs
+site_name: Stabilizing Behaviors Consultations
+site_name_short: Stabilizing Behaviors
+site_url: http://stabilizingbehaviors.org
+site_author: Stabilizing Behaviors
+copyright: Stabilizing Behaviors
+
+# repository information
+repo_url: https://github.com/almostengr/stabilizing-behaviors
+repo_name: Github
+remote_name: origin
+remote_branch: website
+
+# Development server details
+dev_addr: 10.10.10.102:8080
+
+# Appearance
+theme:
+  name: null
+  custom_dir: 'sbtheme'
+  language: en
+  # google_tag:
+  site_icon: "/images/SmallLogo250x151.png"
+  main:
+    bgcolor: bg-light
+  reviews:
+    - author: test
+      date: May 2024
+      comment: They offer great set of services!
+  static_templates:
+    - 404.html
+    - 500.html
+
+  reviews:
+    - date: January 2024
+      comment: Great customer service!
+      name: Anonymous
+
+  sidebar:
+    - heading: Behaviorial Services
+      body: We offer several servces to improve the lives of children and their parents with the use of our evidence-based approach.
+      buttonlink: /services
+    - heading: Community Events
+      body:  Our community events are designed to enhance social skills and encourage peer interaction among children. 
+      buttonlink: /services/community-events
+    - heading: Parent Training and Support
+      body: By fostering a strong partnership with parents, we create a comprehensive support system that enhances the child's development and overall well-being.
+      buttonlink: /services/parent-training-and-support
+    - heading: Serving Maryland
+      body: Our team works with parents, children, and families located in the state of Maryland. Click the button below to find out about all the locations we serve.
+      buttonlink: /locations#maryland
+    - heading: Serving Virginia
+      body: Our team works with parents, children, and families located in the state of Virginia. Click the button below to find out about all the locations we serve.
+      buttonlink: /locations#virginia
+      
+use_directory_urls: true
+strict: false
+
+
+plugins:
+  # - minify:
+      # minify_html: true
+
+extra:
+  generator: false

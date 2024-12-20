@@ -1,0 +1,24 @@
+name: Firebase Deploy
+
+on:
+  push:
+    branches:
+      - website
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+      - name: Install Dependencies
+        run: npm install
+      - name: Login to Firebase
+        uses: FirebaseExtended/action-hosting-deploy@v0
+        with:
+          args: deploy --only hosting
+          serviceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
+          projectId: strategicbehaviors
