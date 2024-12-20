@@ -1,6 +1,6 @@
 {
     "hosting": {
-      "public": "site",
+      "public": "website/site",
       "ignore": [
         "firebase.json",
         "package.json",
