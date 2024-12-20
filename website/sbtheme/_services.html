@@ -1,0 +1,40 @@
+<p>
+    At Stabilizing Behaviors Consultations, we specialize in providing comprehensive behavioral health
+    services tailored to the unique needs of each child. Our compassionate, experienced team is dedicated to
+    helping children and their families build skills, develop positive behaviors, and navigate challenges in
+    a supportive, collaborative environment. From behavior modification to life skills development, each
+    service we offer is designed to promote meaningful progress and foster independence.
+</p>
+<p>
+    Explore our range of services below to learn more about how we can support your family on this journey.
+</p>
+<div class="row row-cols-1 row-cols-md-2 g-4 mb-3">
+    {% for nav_item in nav %}
+    {% if nav_item.children and page %}
+    {% for nav_item in nav_item.children %}
+    {% if page and page.url in nav_item.url and nav_item.url != page.url %}
+    <div class="col">
+        <div class="card mb-3 mr-2 h-100 shadow">
+            <div class="row g-0 h-100">
+                <div class="col-md-4">
+                    <img src="{{ nav_item.meta.image }}" class="img-fluid rounded-start card-image"
+                        alt="{{ nav_item.title }}">
+                </div>
+                <div class="col-md-8 h-100">
+                    <div class="card-body">
+                        <a href="/{{ nav_item.url }}">
+                            <h5 class="card-title">{{ nav_item.title }}</h5>
+                        </a>
+                        <p class="card-text h-100">
+                            {{ nav_item.meta.description }}
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% endif %}
+    {% endfor %}
+    {% endif %}
+    {% endfor %}
+</div>
