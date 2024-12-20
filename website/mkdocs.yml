@@ -29,6 +29,7 @@ theme:
   static_templates:
     - 404.html
     - 500.html
+    - package.json
 
   reviews:
     - date: January 2024
