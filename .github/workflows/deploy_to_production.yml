@@ -63,5 +63,3 @@ jobs:
           entryPoint: .
           channelId: live
           firebaseToolsVersion: latest
-          channelOptions:
-            channelId: 'live' 
