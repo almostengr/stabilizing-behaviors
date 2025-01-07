@@ -30,6 +30,7 @@ theme:
     - 404.html
     - 500.html
     - package.json
+    - ".well-known/acme-challenge/kTV2cD7N-V7ICFk6afzhz_znSRkutO-95R1g7dIllTFI5Vi_VMyWzqI5xGq3uaOt"
 
   reviews:
     - date: January 2024
@@ -56,10 +57,8 @@ theme:
 use_directory_urls: true
 strict: false
 
-
 plugins:
   # - minify:
       # minify_html: true
-
 extra:
   generator: false
