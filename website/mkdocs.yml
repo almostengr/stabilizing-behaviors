@@ -53,7 +53,7 @@ theme:
     - heading: Serving Virginia
       body: Our team works with parents, children, and families located in the state of Virginia. Click the button below to find out about all the locations we serve.
       buttonlink: /locations#virginia
-      
+       
 use_directory_urls: true
 strict: false
 
